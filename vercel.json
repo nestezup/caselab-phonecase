@@ -1,0 +1,20 @@
+{
+  "name": "caselab-phonecase-landing",
+  "version": 2,
+  "builds": [
+    {
+      "src": "phonecase-landing.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/phonecase-landing.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/phonecase-landing.html"
+    }
+  ]
+}
